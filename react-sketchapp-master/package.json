@@ -1,0 +1,129 @@
+{
+  "name": "react-sketchapp",
+  "version": "3.0.0-beta.5",
+  "description": "A React renderer for Sketch.app",
+  "main": "lib/index.js",
+  "license": "MIT",
+  "author": "Jon Gold <jon.gold@airbnb.com> (http://jon.gold)",
+  "contributors": [
+    "Ben Wilkins <ben.wilkins@airbnb.com>",
+    "Leland Richardson <leland.richardson@airbnb.com>",
+    "Mathieu Dutour <mathieu@dutour.me>",
+    "Jarid Margolin <jaridmargolin@gmail.com>"
+  ],
+  "pre-commit": [
+    "flow",
+    "lint-staged"
+  ],
+  "scripts": {
+    "build:react": "babel src -d lib --ignore **/__mocks__/**",
+    "build:flow": "flow-copy-source -v -i '**/__tests__/**' src lib",
+    "build": "npm run build:react && npm run build:flow",
+    "clean": "rimraf lib react-example.sketchplugin",
+    "check": "npm run test && npm run flow && npm run lint",
+    "docs:clean": "rimraf _book",
+    "docs:prepare": "gitbook install",
+    "docs:build": "npm run docs:prepare && gitbook build",
+    "docs:watch": "npm run docs:prepare && gitbook serve",
+    "docs:publish": "npm run docs:clean && npm run docs:build && cd _book && git init && git commit --allow-empty -m 'update book' && git fetch git@github.com:airbnb/react-sketchapp.git gh-pages && git checkout -b gh-pages && git add . && git commit -am 'update book' && git push git@github.com:airbnb/react-sketchapp.git gh-pages --force",
+    "flow": "flow",
+    "lint": "eslint .",
+    "lint-staged": "lint-staged",
+    "prepublishOnly": "npm run clean && npm run check && npm run build",
+    "prettier:base": "prettier --write",
+    "prettify": "npm run prettier:base \"src/**/*.js\" \"examples/**/*.js\" \"__tests__/**/*.js\" \"docs/**/*.md\"",
+    "test": "jest --config .jestrc.json",
+    "test:ci": "jest --config .jestrc.json --runInBand",
+    "test:e2e": "skpm-test",
+    "test:watch": "npm run test -- --watch",
+    "test:e2e:watch": "npm run test:e2e -- --watch",
+    "watch": "npm run build:react -- --watch"
+  },
+  "dependencies": {
+    "@skpm/sketchapp-json-plugin": "^0.2.0",
+    "airbnb-prop-types": "^2.10.0",
+    "error-stack-parser": "^2.0.0",
+    "invariant": "^2.2.2",
+    "js-sha1": "^0.6.0",
+    "murmur2js": "^1.0.0",
+    "normalize-css-color": "^1.0.1",
+    "pegjs": "^0.10.0",
+    "prop-types": "^15.5.8",
+    "sketch-constants": "^1.0.2",
+    "yoga-layout": "^1.9.3"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-test-renderer": "*"
+  },
+  "optionalDependencies": {
+    "nodobjc": "^2.1.0"
+  },
+  "keywords": [
+    "sketch",
+    "sketchapp",
+    "react",
+    "reactjs",
+    "renderer"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/airbnb/react-sketchapp"
+  },
+  "bugs": {
+    "url": "https://github.com/airbnb/react-sketchapp/issues"
+  },
+  "homepage": "https://github.com/airbnb/react-sketchapp",
+  "lint-staged": {
+    "*.js": [
+      "npm run prettier:base",
+      "git add",
+      "eslint --quiet"
+    ],
+    "*.md": [
+      "npm run prettier:base",
+      "git add"
+    ]
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.1.0",
+    "@babel/core": "^7.1.0",
+    "@babel/plugin-proposal-class-properties": "^7.1.0",
+    "@babel/plugin-transform-modules-commonjs": "^7.1.0",
+    "@babel/preset-flow": "^7.0.0",
+    "@skpm/babel-preset": "^0.2.1",
+    "@skpm/test-runner": "^0.3.2",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-eslint": "^9.0.0",
+    "babel-jest": "^23.6.0",
+    "eslint": "^5.6.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-prettier": "^3.0.1",
+    "eslint-config-sketch": "^0.2.4",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-prettier": "^2.6.2",
+    "eslint-plugin-react": "^7.11.1",
+    "flow-bin": "^0.81.0",
+    "flow-copy-source": "^2.0.2",
+    "gitbook-cli": "^2.3.0",
+    "gitbook-plugin-anchorjs": "^2.0.0",
+    "gitbook-plugin-codeblock-disable-glossary": "0.0.1",
+    "gitbook-plugin-edit-link": "^2.0.2",
+    "gitbook-plugin-github": "^3.0.0",
+    "gitbook-plugin-prism": "^2.3.0",
+    "jest-cli": "^22.4.3",
+    "lint-staged": "^7.0.5",
+    "pre-commit": "^1.2.2",
+    "prettier": "^1.14.2",
+    "react": "^16.3.2",
+    "react-test-renderer": "^16.3.2",
+    "rimraf": "^2.5.4",
+    "sketchapp-json-flow-types": "^0.3.5"
+  },
+  "skpm": {
+    "test": {
+      "testRegex": "/__tests__/skpm/.*\\.jsx?$"
+    }
+  }
+}

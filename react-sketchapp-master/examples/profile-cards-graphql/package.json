@@ -1,0 +1,32 @@
+{
+  "name": "profile-cards-gql",
+  "version": "1.0.0",
+  "skpm": {
+    "main": "profile-cards-gql.sketchplugin",
+    "manifest": "src/manifest.json"
+  },
+  "private": true,
+  "scripts": {
+    "build": "skpm-build",
+    "watch": "skpm-build --watch",
+    "render": "skpm-build --watch --run",
+    "render:once": "skpm-build --run",
+    "postinstall": "npm run build && skpm-link"
+  },
+  "author": "Jon Gold <jon.gold@airbnb.com>",
+  "license": "MIT",
+  "dependencies": {
+    "apollo-cache-inmemory": "^1.1.11",
+    "apollo-client": "^2.2.7",
+    "apollo-link-http": "^1.5.3",
+    "graphql": "^0.13.2",
+    "graphql-tag": "^2.4.0",
+    "react": "^16.3.2",
+    "react-apollo": "^2.1.0",
+    "react-sketchapp": "^2.0.0",
+    "react-test-renderer": "^16.3.2"
+  },
+  "devDependencies": {
+    "@skpm/builder": "^0.4.0"
+  }
+}

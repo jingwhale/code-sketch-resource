@@ -1,0 +1,26 @@
+{
+  "name": "timeline-airtable",
+  "private": true,
+  "skpm": {
+    "main": "timeline-airtable.sketchplugin",
+    "manifest": "src/manifest.json"
+  },
+  "scripts": {
+    "build": "skpm-build",
+    "watch": "skpm-build --watch",
+    "render": "skpm-build --watch --run",
+    "render:once": "skpm-build --run",
+    "postinstall": "npm run build && skpm-link"
+  },
+  "author": "David E. Chen <dchen@alumni.cmu.edu>",
+  "license": "MIT",
+  "dependencies": {
+    "prop-types": "^15.5.8",
+    "react": "^16.3.2",
+    "react-sketchapp": "^2.0.0",
+    "react-test-renderer": "^16.3.2"
+  },
+  "devDependencies": {
+    "@skpm/builder": "^0.4.0"
+  }
+}
