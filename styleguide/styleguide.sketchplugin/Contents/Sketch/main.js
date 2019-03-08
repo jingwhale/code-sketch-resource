@@ -45108,7 +45108,7 @@ var Styleguide = function Styleguide() {
         ),
         React.createElement(
             _reactSketchapp.Artboard,
-            { name: 'Text', style: { width: ARTBORD_WIDTH, height: 1000, flexDirection: 'row', flexWrap: 'wrap', marginLeft: 100 } },
+            { name: 'Text', style: { width: ARTBORD_WIDTH, marginLeft: 260 } },
             React.createElement(
                 _reactSketchapp.View,
                 { name: 'header', style: { width: ARTBORD_WIDTH, height: 400, backgroundColor: "#1890FF" } },
@@ -45120,15 +45120,156 @@ var Styleguide = function Styleguide() {
                 React.createElement(
                     _reactSketchapp.Text,
                     { style: { width: 1200, fontSize: 30, color: "#fff", marginLeft: 100 } },
-                    'Ant Design \u7CFB\u7EDF\u7EA7\u8272\u5F69\u4F53\u7CFB\u540C\u6837\u6E90\u4E8E\u300E\u81EA\u7136\u300F\u7684\u8BBE\u8BA1\u4EF7\u503C\u89C2\uFF0C\u5F62\u6210\u4E86\u7279\u6709\u7684 12 \u8272\uFF0C\u5E76\u5BF9 12 \u4E2A\u989C\u8272\u8FDB\u884C\u4E86\u884D\u751F\u3002\u5728\u4E2D\u6027\u8272\u677F\u7684\u5B9A\u4E49\u4E0A\uFF0C\u5219\u662F\u5E73\u8861\u4E86\u53EF\u8BFB\u6027\u3001\u7F8E\u611F\u4EE5\u53CA\u53EF\u7528\u6027\u3002'
+                    '\u7528\u6237\u901A\u8FC7\u6587\u672C\u6765\u7406\u89E3\u5185\u5BB9\u548C\u5B8C\u6210\u5DE5\u4F5C\uFF0C\u79D1\u5B66\u7684\u5B57\u4F53\u7CFB\u7EDF\u5C06\u5927\u5927\u63D0\u5347\u7528\u6237\u7684\u9605\u8BFB\u4F53\u9A8C\u53CA\u5DE5\u4F5C\u6548\u7387,Ant Design \u5B57\u4F53\u65B9\u6848\uFF0C\u57FA\u4E8E\u300E\u52A8\u6001\u79E9\u5E8F\u300F\u8BBE\u8BA1\u539F\u5219\uFF0C\u7ED3\u5408\u81EA\u7136\u5BF9\u6570\u4EE5\u53CA\u97F3\u5F8B\u7684\u89C4\u5219\u3002'
                 )
             ),
             React.createElement(
                 _reactSketchapp.View,
                 { name: 'body' },
-                Object.keys(_designSystem2['default'].fonts).map(function (name) {
-                    return React.createElement(_TypeSpecimen2['default'], { key: name, name: name, style: _reactSketchapp.TextStyles.get(name) });
-                })
+                React.createElement(
+                    _reactSketchapp.View,
+                    { name: '\u5B57\u4F53\u5BB6\u65CF', style: { marginBottom: 100 } },
+                    React.createElement(
+                        _reactSketchapp.View,
+                        { style: { width: 1200, marginLeft: 100, marginBottom: 40 } },
+                        React.createElement(
+                            _reactSketchapp.Text,
+                            { style: { fontSize: 32, marginTop: 100, marginBottom: 16 } },
+                            '\u5B57\u4F53\u5BB6\u65CF'
+                        ),
+                        React.createElement(
+                            _reactSketchapp.Text,
+                            { style: { width: 1200, fontSize: 24 } },
+                            '\u4F18\u79C0\u7684\u5B57\u4F53\u7CFB\u7EDF\u9996\u5148\u662F\u8981\u9009\u62E9\u5408\u9002\u7684\u5B57\u4F53\u5BB6\u65CF\u3002Ant Design \u7684\u5B57\u4F53\u5BB6\u65CF\u4E2D\u4F18\u5148\u4F7F\u7528\u7CFB\u7EDF\u9ED8\u8BA4\u7684\u754C\u9762\u5B57\u4F53\uFF0C\u540C\u65F6\u63D0\u4F9B\u4E86\u4E00\u5957\u5229\u4E8E\u5C4F\u663E\u7684\u5907\u7528\u5B57\u4F53\u5E93\uFF0C\u6765\u7EF4\u62A4\u5728\u4E0D\u540C\u5E73\u53F0\u4EE5\u53CA\u6D4F\u89C8\u5668\u7684\u663E\u793A\u3002'
+                        )
+                    ),
+                    React.createElement(
+                        _reactSketchapp.View,
+                        { style: { width: 1200, flexWrap: 'wrap', marginLeft: 100, backgroundColor: "#F2F4F5", fontSize: 22, padding: 10 } },
+                        React.createElement(
+                            _reactSketchapp.Text,
+                            { style: {} },
+                            'font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"'
+                        )
+                    )
+                ),
+                React.createElement(
+                    _reactSketchapp.View,
+                    { name: '\u4E3B\u5B57\u4F53' },
+                    React.createElement(
+                        _reactSketchapp.View,
+                        { style: { width: 1200, marginLeft: 100, marginBottom: 100 } },
+                        React.createElement(
+                            _reactSketchapp.Text,
+                            { style: { fontSize: 32, marginTop: 100, marginBottom: 16 } },
+                            '\u4E3B\u5B57\u4F53'
+                        ),
+                        React.createElement(
+                            _reactSketchapp.Text,
+                            { style: { width: 1200, fontSize: 24 } },
+                            '\u6211\u4EEC\u57FA\u4E8E\u7535\u8111\u663E\u793A\u5668\u9605\u8BFB\u8DDD\u79BB\uFF0850 cm\uFF09\u4EE5\u53CA\u6700\u4F73\u9605\u8BFB\u89D2\u5EA6\uFF080.3\uFF09\u5BF9 \u4E3B\u5B57\u4F53\u8FDB\u884C\u4E86\uFF0C\u4ECE\u539F\u5148\u7684 12 \u4E0A\u5347\u81F3 14\u7684\u8C03\u6574\uFF0C\u4EE5\u4FDD\u8BC1\u5728\u591A\u6570\u5E38\u7528\u663E\u793A\u5668\u4E0A\u7684\u7528\u6237\u9605\u8BFB\u6548\u7387\u6700\u4F73\u3002'
+                        ),
+                        React.createElement(_reactSketchapp.Image, { source: 'https://gw.alipayobjects.com/zos/rmsportal/yriUFbqOPtVniYYiikfb.png',
+                            resizeMode: 'center',
+                            style: {
+                                height: 211,
+                                width: 680
+                            } })
+                    )
+                ),
+                React.createElement(
+                    _reactSketchapp.View,
+                    { name: '\u5B57\u9636\u4E0E\u884C\u9AD8' },
+                    React.createElement(
+                        _reactSketchapp.View,
+                        { style: { width: 1200, marginLeft: 100, marginBottom: 100 } },
+                        React.createElement(
+                            _reactSketchapp.Text,
+                            { style: { fontSize: 32, marginTop: 100, marginBottom: 16 } },
+                            '\u5B57\u9636\u4E0E\u884C\u9AD8'
+                        ),
+                        React.createElement(
+                            _reactSketchapp.Text,
+                            { style: { width: 1200, fontSize: 24 } },
+                            '\u5B57\u9636\u548C\u884C\u9AD8\u51B3\u5B9A\u7740\u4E00\u5957\u5B57\u4F53\u7CFB\u7EDF\u7684\u52A8\u6001\u4E0E\u79E9\u5E8F\u4E4B\u7F8E\u3002\u5B57\u9636\u662F\u6307\u4E00\u7CFB\u5217\u6709\u89C4\u5F8B\u7684\u4E0D\u540C\u5C3A\u5BF8\u7684\u5B57\u4F53\u3002\u884C\u9AD8\u53EF\u4EE5\u7406\u89E3\u4E3A\u4E00\u4E2A\u5305\u88F9\u5728\u5B57\u4F53\u5916\u9762\u7684\u65E0\u5F62\u7684\u76D2\u5B50\u3002'
+                        ),
+                        React.createElement(_reactSketchapp.Image, { source: 'https://gw.alipayobjects.com/zos/rmsportal/xpykKKFJQorFJltdXkie.png',
+                            resizeMode: 'center',
+                            style: {
+                                height: 163,
+                                width: 800
+                            } }),
+                        React.createElement(
+                            _reactSketchapp.Text,
+                            { style: { width: 1200, fontSize: 24, marginTop: 20, marginBottom: 16 } },
+                            'Ant Design \u53D7\u5230 5 \u97F3\u9636\u4EE5\u53CA\u81EA\u7136\u5F8B\u7684\u542F\u53D1\u5B9A\u4E49\u4E86 10 \u4E2A\u4E0D\u540C\u5C3A\u5BF8\u7684\u5B57\u4F53\u4EE5\u53CA\u4E0E\u4E4B\u76F8\u5BF9\u5E94\u7684\u884C\u9AD8\u3002'
+                        ),
+                        React.createElement(
+                            _reactSketchapp.View,
+                            { style: { width: ARTBORD_WIDTH, flexDirection: 'row', flexWrap: 'wrap' } },
+                            Object.keys(_designSystem2['default'].presetFont.size).map(function (index) {
+                                return React.createElement(
+                                    _reactSketchapp.Text,
+                                    { style: { width: index > 0 ? 80 : 200, textAlign: "center", fontSize: 28 } },
+                                    _designSystem2['default'].presetFont.size[index]
+                                );
+                            })
+                        ),
+                        React.createElement(
+                            _reactSketchapp.View,
+                            { style: { width: ARTBORD_WIDTH, flexDirection: 'row', flexWrap: 'wrap', marginTop: 10 } },
+                            Object.keys(_designSystem2['default'].presetFont.height).map(function (index) {
+                                return React.createElement(
+                                    _reactSketchapp.Text,
+                                    { style: { width: index > 0 ? 80 : 200, textAlign: "center", fontSize: 28 } },
+                                    _designSystem2['default'].presetFont.height[index]
+                                );
+                            })
+                        )
+                    )
+                ),
+                React.createElement(
+                    _reactSketchapp.View,
+                    { name: '\u5B57\u91CD' },
+                    React.createElement(
+                        _reactSketchapp.View,
+                        { style: { width: 1200, marginLeft: 100, marginBottom: 100 } },
+                        React.createElement(
+                            _reactSketchapp.Text,
+                            { style: { fontSize: 32, marginTop: 100, marginBottom: 16 } },
+                            '\u5B57\u91CD'
+                        ),
+                        React.createElement(
+                            _reactSketchapp.Text,
+                            { style: { width: 1200, fontSize: 24 } },
+                            '\u5B57\u91CD\u7684\u9009\u62E9\u540C\u6837\u57FA\u4E8E\u79E9\u5E8F\u3001\u7A33\u5B9A\u3001\u514B\u5236\u7684\u539F\u5219\u3002\u591A\u6570\u60C5\u51B5\u4E0B\uFF0C\u53EA\u51FA\u73B0 regular \u4EE5\u53CA medium \u7684\u4E24\u79CD\u5B57\u4F53\u91CD\u91CF\uFF0C\u5206\u522B\u5BF9\u5E94\u4EE3\u7801\u4E2D\u7684 400 \u548C 500\u3002\u5728\u82F1\u6587\u5B57\u4F53\u52A0\u7C97\u7684\u60C5\u51B5\u4E0B\u4F1A\u91C7\u7528 semibold \u7684\u5B57\u4F53\u91CD\u91CF\uFF0C\u5BF9\u5E94\u4EE3\u7801\u4E2D\u7684 600\u3002'
+                        )
+                    )
+                ),
+                React.createElement(
+                    _reactSketchapp.View,
+                    { name: '\u5B57\u4F53\u989C\u8272' },
+                    React.createElement(
+                        _reactSketchapp.View,
+                        { style: { width: 1200, marginLeft: 100, marginBottom: 10 } },
+                        React.createElement(
+                            _reactSketchapp.Text,
+                            { style: { fontSize: 32, marginTop: 100, marginBottom: 16 } },
+                            '\u5B57\u4F53\u989C\u8272'
+                        ),
+                        React.createElement(
+                            _reactSketchapp.Text,
+                            { style: { width: 1200, fontSize: 24, marginBottom: 40 } },
+                            '\u6587\u672C\u989C\u8272\u5982\u679C\u548C\u80CC\u666F\u989C\u8272\u592A\u63A5\u8FD1\u5C31\u4F1A\u96BE\u4EE5\u9605\u8BFB\u3002\u8003\u8651\u5230\u65E0\u969C\u788D\u8BBE\u8BA1\u7684\u9700\u6C42\uFF0C\u6211\u4EEC\u53C2\u8003\u4E86 WCAG \u7684\u6807\u51C6\uFF0C\u5C06\u6B63\u6587\u6587\u672C\u3001\u6807\u9898\u548C\u80CC\u666F\u8272\u4E4B\u95F4\u4FDD\u6301\u5728\u4E86 7:1 \u4EE5\u4E0A\u7684 AAA \u7EA7\u5BF9\u6BD4\u5EA6\u3002'
+                        ),
+                        React.createElement(_reactSketchapp.Image, { source: 'https://gw.alipayobjects.com/zos/rmsportal/jPbEabWakVQHosHxhQPR.png',
+                            resizeMode: 'center',
+                            style: {
+                                height: 451,
+                                width: 686
+                            } })
+                    )
+                )
             )
         )
     );
@@ -45144,9 +45285,9 @@ exports['default'] = Styleguide;
 
 
 Object.defineProperty(exports, "__esModule", {
-  value: true
+    value: true
 });
-exports.fonts = exports.spacing = exports.presetPalettesGrey = exports.colors = undefined;
+exports.fonts = exports.spacing = exports.presetFont = exports.presetPalettesGrey = exports.colors = undefined;
 
 var _processColor = __webpack_require__(221);
 
@@ -45164,65 +45305,72 @@ presetPalettesGrey.grey = _colors.presetPalettes.grey;
 
 delete _colors.presetPalettes["grey"];
 
+//字体与行高
+var presetFont = exports.presetFont = {
+    size: ["Font Size", 12, 14, 16, 20, 24, 30, 38, 46, 56, 68],
+    height: ["Line Height", 20, 22, 24, 28, 32, 38, 46, 54, 64, 76]
+};
+
 var typeSizes = [80, 48, 36, 24, 20, 16];
 
 var spacing = exports.spacing = 16;
 
 var fontFamilies = {
-  display: 'Helvetica',
-  body: 'Georgia'
+    display: 'Helvetica',
+    body: 'Georgia'
 };
 
 var fontWeights = {
-  regular: 'regular',
-  bold: 'bold'
+    regular: 'regular',
+    bold: 'bold'
 };
 
 var fonts = exports.fonts = {
-  Headline: {
-    color: colors.Night,
-    fontSize: typeSizes[0],
-    fontFamily: fontFamilies.display,
-    fontWeight: fontWeights.bold,
-    lineHeight: 80
-  },
-  'Title 1': {
-    color: colors.Night,
-    fontSize: typeSizes[2],
-    fontFamily: fontFamilies.display,
-    fontWeight: fontWeights.bold,
-    lineHeight: 48
-  },
-  'Title 2': {
-    color: colors.Night,
-    fontSize: typeSizes[3],
-    fontFamily: fontFamilies.display,
-    fontWeight: fontWeights.bold,
-    lineHeight: 36
-  },
-  'Title 3': {
-    color: colors.Night,
-    fontSize: typeSizes[4],
-    fontFamily: fontFamilies.body,
-    fontWeight: fontWeights.regular,
-    lineHeight: 24
-  },
-  Body: {
-    color: colors.Night,
-    fontSize: typeSizes[5],
-    fontFamily: fontFamilies.body,
-    fontWeight: fontWeights.regular,
-    lineHeight: 24,
-    marginBottom: 24
-  }
+    Headline: {
+        color: colors.Night,
+        fontSize: typeSizes[0],
+        fontFamily: fontFamilies.display,
+        fontWeight: fontWeights.bold,
+        lineHeight: 80
+    },
+    'Title 1': {
+        color: colors.Night,
+        fontSize: typeSizes[2],
+        fontFamily: fontFamilies.display,
+        fontWeight: fontWeights.bold,
+        lineHeight: 48
+    },
+    'Title 2': {
+        color: colors.Night,
+        fontSize: typeSizes[3],
+        fontFamily: fontFamilies.display,
+        fontWeight: fontWeights.bold,
+        lineHeight: 36
+    },
+    'Title 3': {
+        color: colors.Night,
+        fontSize: typeSizes[4],
+        fontFamily: fontFamilies.body,
+        fontWeight: fontWeights.regular,
+        lineHeight: 24
+    },
+    Body: {
+        color: colors.Night,
+        fontSize: typeSizes[5],
+        fontFamily: fontFamilies.body,
+        fontWeight: fontWeights.regular,
+        lineHeight: 24,
+        marginBottom: 24
+    }
 };
 
 exports['default'] = {
-  colors: colors,
-  fonts: fonts,
-  spacing: spacing,
-  presetPalettes: _colors.presetPalettes,
-  presetPalettesGrey: presetPalettesGrey
+    colors: colors,
+    fonts: fonts,
+    spacing: spacing,
+    presetPalettes: _colors.presetPalettes,
+    presetPalettesGrey: presetPalettesGrey,
+    presetFont: presetFont
 };
 
 /***/ }),

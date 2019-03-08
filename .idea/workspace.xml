@@ -2,313 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d63b1c36-1a2f-49d7-95d6-28f7160c9d1a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/code_sketch_resource.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/.babelrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/.bookignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/.eslintignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/.eslintrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/.flowconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/.github/ISSUE_TEMPLATE.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/.jestrc.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/.npmignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/.npmrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/.travis.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/CHANGELOG.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/CODE_OF_CONDUCT.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/CONTRIBUTING.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/SUMMARY.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/__tests__/jest/components/Artboard.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/__tests__/jest/components/Document.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/__tests__/jest/components/Image.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/__tests__/jest/components/Page.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/__tests__/jest/components/RedBox.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/__tests__/jest/components/Svg.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/__tests__/jest/components/Text.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/__tests__/jest/components/View.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/__tests__/jest/components/__snapshots__/Artboard.js.snap" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/__tests__/jest/components/__snapshots__/Document.js.snap" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/__tests__/jest/components/__snapshots__/Image.js.snap" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/__tests__/jest/components/__snapshots__/Page.js.snap" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/__tests__/jest/components/__snapshots__/RedBox.js.snap" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/__tests__/jest/components/__snapshots__/Svg.js.snap" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/__tests__/jest/components/__snapshots__/Text.js.snap" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/__tests__/jest/components/__snapshots__/View.js.snap" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/__tests__/jest/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/__tests__/jest/jsonUtils/computeTextTree.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/__tests__/jest/jsonUtils/computeYogaNode.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/__tests__/jest/jsonUtils/computeYogaTree.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/__tests__/jest/jsonUtils/layerGroup.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/__tests__/jest/jsonUtils/models.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/__tests__/jest/jsonUtils/shapeLayers.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/__tests__/jest/jsonUtils/style.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/__tests__/jest/jsonUtils/textLayers.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/__tests__/jest/reactTreeToFlexTree.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/__tests__/jest/sharedStyles/TextStyles.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/__tests__/jest/utils/isNullOrUndefined.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/__tests__/jest/utils/sortObjectKeys.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/__tests__/jest/utils/zIndex.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/__tests__/skpm/basic.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/__tests__/skpm/render-in-wrapped-object.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/book.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/docs/API.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/docs/FAQ.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/docs/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/docs/assets/Logo-text.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/docs/assets/Logo-text@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/docs/assets/Logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/docs/assets/Logo@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/docs/assets/README-intro.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/docs/assets/examples-basic-form.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/docs/assets/examples-colors.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/docs/assets/examples-primitives.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/docs/assets/examples-profile-cards-gql.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/docs/assets/examples-profile-cards.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/docs/assets/examples-skpm.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/docs/assets/examples-styleguide.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/docs/assets/tooling-typings-vs-code.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/docs/assets/tooling-typings-webstorm.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/docs/examples.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/docs/guides/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/docs/guides/community-provided-tooling.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/docs/guides/data-fetching.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/docs/guides/universal-rendering.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/docs/guides/using-skpm.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/docs/styling.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/examples/.eslintrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/examples/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/examples/basic-setup-typescript/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/examples/basic-setup-typescript/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/examples/basic-setup-typescript/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/examples/basic-setup-typescript/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/examples/basic-setup-typescript/src/my-command.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/examples/basic-setup-typescript/tsconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/examples/basic-setup/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/examples/basic-setup/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/examples/basic-setup/src/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/examples/basic-setup/src/my-command.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/examples/basic-svg/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/examples/basic-svg/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/examples/basic-svg/src/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/examples/basic-svg/src/my-command.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/examples/colors/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/examples/colors/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/examples/colors/src/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/examples/colors/src/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/examples/emotion/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/examples/emotion/src/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/examples/emotion/src/my-command.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/examples/form-validation/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/examples/form-validation/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/examples/form-validation/src/components/Button.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/examples/form-validation/src/components/Register.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/examples/form-validation/src/components/Space.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/examples/form-validation/src/components/StrengthMeter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/examples/form-validation/src/components/TextBox/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/examples/form-validation/src/components/TextBox/index.sketch.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/examples/form-validation/src/components/TextBox/style.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/examples/form-validation/src/data.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/examples/form-validation/src/designSystem.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/examples/form-validation/src/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/examples/form-validation/src/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/examples/form-validation/src/types.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/examples/form-validation/src/web.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/examples/foursquare-maps/.eslintrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/examples/foursquare-maps/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/examples/foursquare-maps/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/examples/foursquare-maps/src/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/examples/foursquare-maps/src/getVenues.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/examples/foursquare-maps/src/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/examples/foursquare-maps/src/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/examples/foursquare-maps/src/web.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/examples/glamorous/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/examples/glamorous/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/examples/glamorous/src/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/examples/glamorous/src/my-command.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/examples/lona-sketch-example-master/symbol.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/examples/profile-cards-graphql/.flowconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/examples/profile-cards-graphql/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/examples/profile-cards-graphql/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/examples/profile-cards-graphql/src/components/Profile.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/examples/profile-cards-graphql/src/components/Space.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/examples/profile-cards-graphql/src/designSystem.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/examples/profile-cards-graphql/src/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/examples/profile-cards-graphql/src/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/examples/profile-cards-graphql/src/types.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/examples/profile-cards-primitives/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/examples/profile-cards-primitives/nwb.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/examples/profile-cards-primitives/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/examples/profile-cards-primitives/src/components/Profile.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/examples/profile-cards-primitives/src/components/Space.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/examples/profile-cards-primitives/src/data.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/examples/profile-cards-primitives/src/designSystem.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/examples/profile-cards-primitives/src/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/examples/profile-cards-primitives/src/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/examples/profile-cards-primitives/src/types.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/examples/profile-cards-primitives/src/web.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/examples/profile-cards-react-with-styles/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/examples/profile-cards-react-with-styles/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/examples/profile-cards-react-with-styles/src/components/Profile.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/examples/profile-cards-react-with-styles/src/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/examples/profile-cards-react-with-styles/src/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/examples/profile-cards-react-with-styles/src/theme.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/examples/profile-cards-react-with-styles/src/types.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/examples/profile-cards-react-with-styles/src/withStyles.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/examples/profile-cards/.flowconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/examples/profile-cards/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/examples/profile-cards/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/examples/profile-cards/src/components/Profile.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/examples/profile-cards/src/components/Space.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/examples/profile-cards/src/designSystem.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/examples/profile-cards/src/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/examples/profile-cards/src/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/examples/profile-cards/src/types.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/examples/styled-components/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/examples/styled-components/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/examples/styled-components/src/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/examples/styled-components/src/my-command.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/examples/styleguide/.flowconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/examples/styleguide/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/examples/styleguide/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/examples/styleguide/src/components/AccessibilityBadge.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/examples/styleguide/src/components/Badge.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/examples/styleguide/src/components/Label.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/examples/styleguide/src/components/Palette.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/examples/styleguide/src/components/Section.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/examples/styleguide/src/components/Swatch.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/examples/styleguide/src/components/TypeSpecimen.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/examples/styleguide/src/designSystem.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/examples/styleguide/src/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/examples/styleguide/src/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/examples/styleguide/src/processColor.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/examples/symbols/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/examples/symbols/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/examples/symbols/src/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/examples/symbols/src/my-command.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/examples/timeline-airtable/.eslintrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/examples/timeline-airtable/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/examples/timeline-airtable/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/examples/timeline-airtable/src/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/examples/timeline-airtable/src/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/flow-typed/fbjs.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/flow-typed/pegjs.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/flow-typed/sketch-constants.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/flow-typed/sketch.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/flow-typed/sketchapp-json-plugin.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/prettier.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/src/Platform.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/src/buildTree.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/src/components/Artboard.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/src/components/Document.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/src/components/Image.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/src/components/ImageStylePropTypes.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/src/components/Page.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/src/components/PageStylePropTypes.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/src/components/RedBox.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/src/components/ResizeModePropTypes.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/src/components/ResizingConstraintPropTypes.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/src/components/ShadowsPropTypes.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/src/components/Svg/Circle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/src/components/Svg/ClipPath.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/src/components/Svg/Defs.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/src/components/Svg/Ellipse.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/src/components/Svg/G.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/src/components/Svg/Image.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/src/components/Svg/Line.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/src/components/Svg/LinearGradient.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/src/components/Svg/Path.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/src/components/Svg/Pattern.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/src/components/Svg/Polygon.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/src/components/Svg/Polyline.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/src/components/Svg/RadialGradient.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/src/components/Svg/Rect.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/src/components/Svg/Stop.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/src/components/Svg/Svg.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/src/components/Svg/Symbol.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/src/components/Svg/TSpan.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/src/components/Svg/Text.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/src/components/Svg/TextPath.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/src/components/Svg/Use.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/src/components/Svg/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/src/components/Svg/props.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/src/components/Text.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/src/components/TextStylePropTypes.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/src/components/View.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/src/components/ViewStylePropTypes.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/src/debug.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/src/flexToSketchJSON.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/src/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/src/jsonUtils/borders.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/src/jsonUtils/computeTextTree.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/src/jsonUtils/computeYogaNode.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/src/jsonUtils/computeYogaTree.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/src/jsonUtils/layerGroup.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/src/jsonUtils/models.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/src/jsonUtils/nodeImpl/createStringMeasurer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/src/jsonUtils/nodeImpl/findFontName.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/src/jsonUtils/nodeImpl/makeImageDataFromUrl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/src/jsonUtils/nodeImpl/makeSvgLayer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/src/jsonUtils/nodeImpl/requireNodobjC.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/src/jsonUtils/resizeConstraint.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/src/jsonUtils/shapeLayers.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/src/jsonUtils/sketchImpl/createStringMeasurer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/src/jsonUtils/sketchImpl/findFontName.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/src/jsonUtils/sketchImpl/makeImageDataFromUrl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/src/jsonUtils/sketchImpl/makeSvgLayer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/src/jsonUtils/style.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/src/jsonUtils/svgLayer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/src/jsonUtils/textLayers.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/src/render.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/src/renderers/ArtboardRenderer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/src/renderers/ImageRenderer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/src/renderers/SketchRenderer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/src/renderers/SvgRenderer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/src/renderers/SymbolInstanceRenderer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/src/renderers/SymbolMasterRenderer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/src/renderers/TextRenderer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/src/renderers/ViewRenderer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/src/renderers/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/src/resets.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/src/sharedStyles/TextStyles.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/src/stylesheet/expandStyle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/src/stylesheet/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/src/stylesheet/types.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/src/symbol.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/src/types.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/src/utils/Context.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/src/utils/constants.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/src/utils/createStringMeasurer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/src/utils/findFont.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/src/utils/getDocument.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/src/utils/getImageDataFromURL.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/src/utils/getSketchVersion.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/src/utils/hasAnyDefined.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/src/utils/hashStyle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/src/utils/isNativeDocument.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/src/utils/isNativePage.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/src/utils/isNativeSymbolsPage.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/src/utils/isNullOrUndefined.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/src/utils/pick.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/src/utils/processTransform/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/src/utils/processTransform/matrix2D.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/src/utils/processTransform/parseTransformOriginProp.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/src/utils/processTransform/parseTransformProp.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/src/utils/same.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/src/utils/sortObjectKeys.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/src/utils/zIndex.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/src/wrappers/sharedTextStyles.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/template/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/template/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/template/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/template/src/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-sketchapp-master/template/src/my-command.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styleguide/src/designSystem.js" beforeDir="false" afterPath="$PROJECT_DIR$/styleguide/src/designSystem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styleguide/src/pages/styleguide.js" beforeDir="false" afterPath="$PROJECT_DIR$/styleguide/src/pages/styleguide.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styleguide/styleguide.sketchplugin/Contents/Sketch/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/styleguide/styleguide.sketchplugin/Contents/Sketch/main.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -322,10 +19,42 @@
       <file leaf-file-name="styleguide.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/styleguide/src/pages/styleguide.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="60" column="15" selection-start-line="60" selection-start-column="15" selection-end-line="64" selection-end-column="23" />
+            <state relative-caret-position="392">
+              <caret line="69" column="116" selection-start-line="69" selection-start-column="116" selection-end-line="69" selection-end-column="116" />
+              <folding>
+                <element signature="e#95#126#0" expanded="true" />
+              </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="designSystem.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/styleguide/src/designSystem.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="213">
+              <caret line="17" column="57" selection-start-line="17" selection-start-column="57" selection-end-line="17" selection-end-column="57" />
+              <folding>
+                <element signature="e#0#42#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/styleguide/src/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="44" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
+              <folding>
+                <element signature="e#95#126#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Swatch_new.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/styleguide/src/components/Swatch_new.js">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="Palette_new.js" pinned="false" current-in-tab="false">
@@ -354,6 +83,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/styleguide/src/components/Palette_new.js" />
+        <option value="$PROJECT_DIR$/styleguide/src/designSystem.js" />
         <option value="$PROJECT_DIR$/styleguide/src/pages/styleguide.js" />
       </list>
     </option>
@@ -1319,12 +1049,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1552037051859</updated>
-      <workItem from="1552037053083" duration="891000" />
+      <workItem from="1552037053083" duration="8280000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="891000" />
+    <option name="totallyTimeSpent" value="8280000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="831" extended-state="0" />
@@ -1340,10 +1070,10 @@
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32833788" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32833788" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22389127" />
       <window_info anchor="right" id="Database" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32970026" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -1399,10 +1129,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/styleguide/src/components/Swatch_new.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styleguide/src/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="44" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
+          <folding>
+            <element signature="e#95#126#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styleguide/src/designSystem.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="17" column="57" selection-start-line="17" selection-start-column="57" selection-end-line="17" selection-end-column="57" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/styleguide/src/pages/styleguide.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="60" column="15" selection-start-line="60" selection-start-column="15" selection-end-line="64" selection-end-column="23" />
+        <state relative-caret-position="392">
+          <caret line="69" column="116" selection-start-line="69" selection-start-column="116" selection-end-line="69" selection-end-column="116" />
+          <folding>
+            <element signature="e#95#126#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
