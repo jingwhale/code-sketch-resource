@@ -12,7 +12,7 @@
     "render:once": "skpm-build --run",
     "postinstall": "npm run build && skpm-link"
   },
-  "author": "Jon Gold <jon.gold@airbnb.com>",
+  "author": "Jingwhale <https://www.jingwhale.cc/>",
   "license": "MIT",
   "dependencies": {
     "@ant-design/colors": "^2.0.4",

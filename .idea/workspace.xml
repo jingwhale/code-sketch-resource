@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d63b1c36-1a2f-49d7-95d6-28f7160c9d1a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styleguide/src/designSystem.js" beforeDir="false" afterPath="$PROJECT_DIR$/styleguide/src/designSystem.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styleguide/src/pages/styleguide.js" beforeDir="false" afterPath="$PROJECT_DIR$/styleguide/src/pages/styleguide.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styleguide/styleguide.sketchplugin/Contents/Sketch/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/styleguide/styleguide.sketchplugin/Contents/Sketch/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styleguide/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/styleguide/package.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,14 +13,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="styleguide.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/styleguide/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="35" lean-forward="true" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="styleguide.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/styleguide/src/pages/styleguide.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="392">
-              <caret line="69" column="116" selection-start-line="69" selection-start-column="116" selection-end-line="69" selection-end-column="116" />
+            <state relative-caret-position="167">
+              <caret line="54" column="73" selection-start-line="54" selection-start-column="73" selection-end-line="54" selection-end-column="73" />
               <folding>
                 <element signature="e#95#126#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="manifest.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/styleguide/src/manifest.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="27" lean-forward="true" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -85,6 +100,7 @@
         <option value="$PROJECT_DIR$/styleguide/src/components/Palette_new.js" />
         <option value="$PROJECT_DIR$/styleguide/src/designSystem.js" />
         <option value="$PROJECT_DIR$/styleguide/src/pages/styleguide.js" />
+        <option value="$PROJECT_DIR$/styleguide/package.json" />
       </list>
     </option>
   </component>
@@ -961,13 +977,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="code_sketch_resource" type="b2602c69:ProjectViewProjectNode" />
-              <item name="code_sketch_resource" type="462c0819:PsiDirectoryNode" />
-              <item name="styleguide" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -1049,12 +1058,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1552037051859</updated>
-      <workItem from="1552037053083" duration="8280000" />
+      <workItem from="1552037053083" duration="8471000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8280000" />
+    <option name="totallyTimeSpent" value="8471000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="831" extended-state="0" />
@@ -1132,16 +1141,6 @@
     <entry file="file://$PROJECT_DIR$/styleguide/src/components/Swatch_new.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/styleguide/src/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="44" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
-          <folding>
-            <element signature="e#95#126#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/styleguide/src/designSystem.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="213">
@@ -1154,11 +1153,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/styleguide/src/pages/styleguide.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="69" column="116" selection-start-line="69" selection-start-column="116" selection-end-line="69" selection-end-column="116" />
+        <state relative-caret-position="167">
+          <caret line="54" column="73" selection-start-line="54" selection-start-column="73" selection-end-line="54" selection-end-column="73" />
           <folding>
             <element signature="e#95#126#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styleguide/src/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="44" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
+          <folding>
+            <element signature="e#95#126#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styleguide/src/manifest.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="27" lean-forward="true" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styleguide/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="35" lean-forward="true" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
         </state>
       </provider>
     </entry>
