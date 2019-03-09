@@ -2,10 +2,16 @@
 
 ## How to use
 
-Download the example or [clone the repo](http://github.com/airbnb/react-sketchapp):
+Download the project:
 
 ```bash
-curl https://codeload.github.com/airbnb/react-sketchapp/tar.gz/master | tar -xz --strip=2 react-sketchapp-master/examples/styleguide
+https://github.com/jingwhale/code_sketch_resource/tar.gz/master
+cd styleguide
+```
+
+or [clone the repo](https://github.com/jingwhale/code_sketch_resource):
+```bash
+git clone https://github.com/jingwhale/code_sketch_resource
 cd styleguide
 ```
 
@@ -15,16 +21,18 @@ Install the dependencies
 npm install
 ```
 
-Then, open Sketch and navigate to `Plugins → react-sketchapp: Styleguide`
-
-Run with live reloading in Sketch
+Run with live reloading in Sketch, in terminal:
 
 ```bash
 npm run render
 ```
 
-## The idea behind the example
+or, open Sketch and navigate to `Plugins → react-sketchapp: Styleguide`
+
+## The idea behind the project
 
 The reason we started `react-sketchapp` was to build dynamic styleguides! This is an example showing how to quickly render rich styleguides from JavaScript design system definition. It uses `flow` to enforce correctness, and `chroma-js` to dynamically generate color contrast labels.
 
-![examples-styleguide](https://cloud.githubusercontent.com/assets/591643/24778196/2a4ef41a-1ade-11e7-9805-8d974bbfd708.png)
+![examples-styleguide-palette](https://cdn.nlark.com/yuque/0/2019/png/120638/1552048817637-6e5333e1-2958-4740-8029-f6f4714cabbb.png)
+
+![examples-styleguide-palette](https://cdn.nlark.com/yuque/0/2019/png/120638/1552049054577-d9c13c5f-fe5d-4a1f-af47-577ed3e7596d.png)
