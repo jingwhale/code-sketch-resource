@@ -1,4 +1,5 @@
 # Styleguide
+For a detailed explanation on how things work, checkout the [code-sketch-resource Readme](https://www.yuque.com/jingwhale/blog/do37mc)._
 
 ## How to use
 
@@ -29,7 +30,7 @@ npm run render
 
 or, open Sketch and navigate to `Plugins → react-sketchapp: Styleguide`
 
-## The idea behind the project
+## [The idea behind the project](https://www.yuque.com/jingwhale/component/artboards/59671)
 
 The reason we started `react-sketchapp` was to build dynamic styleguides! This is an example showing how to quickly render rich styleguides from JavaScript design system definition. It uses `flow` to enforce correctness, and `chroma-js` to dynamically generate color contrast labels.
 
