@@ -1,5 +1,5 @@
 # Styleguide
-For a detailed explanation on how things work, checkout the [code-sketch-resource Readme](https://www.yuque.com/jingwhale/blog/do37mc).
+For a detailed explanation on how things work, checkout the [code-sketch-resource Readme](https://www.yuque.com/jingwhale/tool/vgwxdb).
 
 ## How to use
 
